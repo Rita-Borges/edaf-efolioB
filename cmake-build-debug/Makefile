@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named EDAF_eFolioB
+# Target rules for targets named efolioAedaf
 
 # Build rule for target.
-EDAF_eFolioB: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EDAF_eFolioB
-.PHONY : EDAF_eFolioB
+efolioAedaf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efolioAedaf
+.PHONY : efolioAedaf
 
 # fast build rule for target.
-EDAF_eFolioB/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EDAF_eFolioB.dir/build.make CMakeFiles/EDAF_eFolioB.dir/build
-.PHONY : EDAF_eFolioB/fast
+efolioAedaf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/efolioAedaf.dir/build.make CMakeFiles/efolioAedaf.dir/build
+.PHONY : efolioAedaf/fast
 
 main.o: main.cpp.o
 
@@ -148,7 +148,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EDAF_eFolioB.dir/build.make CMakeFiles/EDAF_eFolioB.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/efolioAedaf.dir/build.make CMakeFiles/efolioAedaf.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EDAF_eFolioB.dir/build.make CMakeFiles/EDAF_eFolioB.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/efolioAedaf.dir/build.make CMakeFiles/efolioAedaf.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EDAF_eFolioB.dir/build.make CMakeFiles/EDAF_eFolioB.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/efolioAedaf.dir/build.make CMakeFiles/efolioAedaf.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EDAF_eFolioB"
+	@echo "... efolioAedaf"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
